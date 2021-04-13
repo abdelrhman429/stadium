@@ -1,0 +1,8 @@
+@media print
+
+{
+	p{
+	color:#f00;
+	font-size:40px;
+}
+}
