@@ -18,7 +18,10 @@ if (isset($_SESSION["username"])) {
     session_write_close();
     $url = "./indexx.php";
     //header("Location: $url");
-    
+    echo"
+    <script >
+   document.location='./indexx.php'
+    </script>";
 }
 
 ?>
