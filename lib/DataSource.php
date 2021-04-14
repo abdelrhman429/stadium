@@ -23,11 +23,11 @@ class DataSource
    
    const HOST = 'remotemysql.com';
 
-    const USERNAME = 'PIedkerRef';
+    const USERNAME = 'Fh2MuPZ0Od';
 
-    const PASSWORD = 'P3pOR1VH6k';
+    const PASSWORD = '4x9nwR0f97';
 
-    const DATABASENAME = 'PIedkerRef';
+    const DATABASENAME = 'Fh2MuPZ0Od';
 
     private $conn;
 
