@@ -20,7 +20,7 @@ if (isset($_SESSION["username"])) {
     //header("Location: $url");
     echo"
     <script >
-   document.location='./indexx.php'
+   document.location='indexx.php'
     </script>";
 }
 
