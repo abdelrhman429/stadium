@@ -3,5 +3,5 @@
 session_start();
 session_unset();
 session_write_close();
-$url = "indexx.php";
+$url = "./indexx.php";
 header("Location: $url");
