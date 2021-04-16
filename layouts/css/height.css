@@ -1,0 +1,9 @@
+
+.height{
+    background:#00f;
+    width: 200px;
+    min-height: 50px;
+    max-height: 200px;
+margin-right: 20px;
+float: left;
+}

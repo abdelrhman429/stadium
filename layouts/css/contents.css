@@ -1,0 +1,7 @@
+div:after{
+    content: "hello i am from css";
+    color: #00f;
+}
+div{
+    color: #f00;
+}

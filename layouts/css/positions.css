@@ -1,0 +1,29 @@
+body{
+   
+    background: #676767;
+    height: 3000px;
+}
+.parent{
+    background: #080;
+    
+padding: 10px;
+height: 600px;
+
+    
+}
+.child{
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    background: #00f;
+
+    
+}
+.abs
+{
+    background: #f00;
+   ;
+    padding: 10px;
+    position: absolute;
+    
+}
