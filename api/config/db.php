@@ -2,10 +2,11 @@
 // used to get mysql database connection
 class DatabaseService{
 
-    private $db_host = "localhost";
-    private $db_name = "stadium";
-    private $db_user = "root";
-    private $db_password = "";
+    private $db_host = "remotemysql.com";
+    private $db_name = "Fh2MuPZ0Od";
+    private $db_user = "Fh2MuPZ0Od";
+    private $db_password = "4x9nwR0f97
+";
     private $connection;
 
     public function getConnection(){
