@@ -20,13 +20,13 @@ class DataSource
     // PHP 7.1.0 visibility modifiers are allowed for class constants.
     // when using above 7.1.0, declare the below constants as private
     // for better encapsulation
-    const HOST = 'localhost';
+    const HOST = 'remotemysql.com';
 
-    const USERNAME = 'root';
+    const USERNAME = 'Fh2MuPZ0Od';
 
-    const PASSWORD = '';
+    const PASSWORD = '4x9nwR0f97';
 
-    const DATABASENAME = 'user-registration';
+    const DATABASENAME = 'Fh2MuPZ0Od';
 
     private $conn;
 
