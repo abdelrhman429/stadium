@@ -32,6 +32,8 @@ $stmt = $conn->prepare( $query );
 $stmt->bindParam(1, $email);
 $stmt->execute();
 $num = $stmt->rowCount();
+// echo $num;
+// die();
 
 if($num > 0){
     $row = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -75,7 +77,11 @@ if($num > 0){
     else{
 
         http_response_code(401);
-        echo json_encode(array("message" => "Login failed.", "password" => $password));
+        echo json_encode(array("message" => "Login failed, Incorrect Password"));
     }
+}else{
+    http_response_code(401);
+    echo json_encode(array("message" => "Login failed, Email not found"));
+
 }
 ?>
