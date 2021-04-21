@@ -1,5 +1,5 @@
 <?php
-include_once 'config/db.php';
+include_once './config/DataSource.php';
 // var_dump(file_exists("config/DataSource.php"));
 // die();
 
