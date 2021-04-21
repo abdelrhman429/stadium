@@ -115,10 +115,7 @@ if(isset($_SESSION['lang'])){
                         </select>
                     </form>
 
-                        <div class="page-header">
-                            <span class="login-signup"><a href="logout.php"><?=_LOGOUT?></a></span>
-                        </div>
-		                    <div class="page-content"><?=_WELCOME?> <?php echo $username;?></div>
+                         
                     </div>
                     </div>
                 </div> 
